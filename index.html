@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>View Transitions</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-inner">
+        <button class="grid-view-button" aria-label="Вид сеткой">
+          <img src="./assets/grid-svgrepo-com.svg" alt="" />
+        </button>
+        <div class="title">
+          <h1>Эхо того, что было <span></span></h1>
+        </div>
+      </div>
+    </div>
+    <div class="grid-outer">
+      <div class="grid">
+        <div
+          class="grid-item"
+          tabindex="0"
+          data-large-image="./assets/img-1-lg.jpg"
+        >
+          <img src="./assets/img-1-th.jpg" alt="" />
+          <h3>Забытые мечты</h3>
+        </div>
+        <div
+          class="grid-item"
+          tabindex="0"
+          data-large-image="./assets/img-2-lg.jpg"
+        >
+          <img src="./assets/img-2-th.jpg" alt="" />
+          <h3>Тяжесть мира</h3>
+        </div>
+        <div
+          class="grid-item"
+          tabindex="0"
+          data-large-image="./assets/img-3-lg.jpg"
+        >
+          <img src="./assets/img-3-th.jpg" alt="" />
+          <h3>Больное сердце</h3>
+        </div>
+        <div
+          class="grid-item"
+          tabindex="0"
+          data-large-image="./assets/img-4-lg.jpg"
+        >
+          <img src="./assets/img-4-th.jpg" alt="" />
+          <h3>Потерянный и одинокий</h3>
+        </div>
+        <div
+          class="grid-item"
+          tabindex="0"
+          data-large-image="./assets/img-5-lg.jpg"
+        >
+          <img src="./assets/img-5-th.jpg" alt="" />
+          <h3>Мерцание света</h3>
+        </div>
+        <div
+          class="grid-item"
+          tabindex="0"
+          data-large-image="./assets/img-6-lg.jpg"
+        >
+          <img src="./assets/img-6-th.jpg" alt="" />
+          <h3>Пустой стул</h3>
+        </div>
+        <div
+          class="grid-item"
+          tabindex="0"
+          data-large-image="./assets/img-7-lg.jpg"
+        >
+          <img src="./assets/img-7-th.jpg" alt="" />
+          <h3>Начало исцеления</h3>
+        </div>
+        <div
+          class="grid-item"
+          tabindex="0"
+          data-large-image="./assets/img-8-lg.jpg"
+        >
+          <img src="./assets/img-8-th.jpg" alt="" />
+          <h3>Последнее прощание</h3>
+        </div>
+      </div>
+      <div class="main">
+        <div class="item">
+          <img src="./assets/img-1-lg.jpg" alt="" />
+          <h2>Забытые мечты</h2>
+          <div class="info">
+            <div class="date info-item">
+              <img src="./assets/date-range-svgrepo-com.svg" alt="" />
+              <span>19 ноября 2019</span>
+            </div>
+            <div class="camera info-item">
+              <img src="./assets/camera-svgrepo-com.svg" alt="" />
+              <span>Sony Alpha 8</span>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Дом скрипел от гнетущей тишины, резко контрастируя с радостной
+              суматохой, которая когда-то наполняла его. Пылинки танцевали в
+              бледных лучах солнца, пробивающихся сквозь жалюзи, освещая пустое
+              пространство, где раньше стояло его любимое кресло. Потертая кожа,
+              когда-то напоминавшая о бесчисленных вечерах, проведённых за
+              чтением и рассказами, теперь зияла, как выбитый зуб, постоянное
+              напоминание о той пустоте, что осталась в их жизни.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>
